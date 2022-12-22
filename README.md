@@ -24,7 +24,6 @@ After this, can navigate to the directory you want your repo to be in.
 
 ```
 cd /local/project/location
-
 ```
 
 Then, you can clone the repo, which will copy the entire repository. In order to clone the repository you must specify where it is located within GitHub. You can do this by providing a link using the foramt below. Replace `username` with your GitHub username and `repoName` with your repository name. 
