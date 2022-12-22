@@ -1,0 +1,37 @@
+
+
+
+.left {
+    padding-left: 25px;
+    justify-content: left;
+}
+
+.center {
+
+    justify-content: center;
+}
+
+.right {
+    padding-right: 25px;
+    justify-content: right;
+}
+
+.page1 {
+    height: 40%;
+    background-color: #F25F5C;
+}
+.page2 {
+    height: 40%;
+    background-color: #FFE066;
+}
+.page3 {
+    height: 40%;
+    background-color: #247BA0;
+}
+.page4 {
+    height: 40%;
+    background-color: #50514F;
+}
+
+
+

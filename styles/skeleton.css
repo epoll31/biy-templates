@@ -1,0 +1,54 @@
+
+html {
+    width: 100vw;/*100 veiwport width points*/
+    height: 100vh;/*100 viewport height points*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;/*100% of parent(html) element*/
+  width: 100%;/*100% of parent(html) element*/
+
+ 	display: flex;
+	flex-flow: column;
+	justify-content:center;
+	align-items: center;
+
+  overflow: hidden;
+}
+
+body > * {
+	width: 100%;
+}
+
+header {
+	flex: 0 1 auto;
+
+  height: min-content;
+}
+
+.content {
+	flex: 1 1 auto;
+
+  overflow: hidden scroll;
+}
+
+footer {
+	flex: 0 1 auto;
+  background-color: beige;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+nav {
+    background-color: beige;
+
+    display: flex;
+}
+nav > * {
+    display: flex;
+    flex-grow: 1;
+}
